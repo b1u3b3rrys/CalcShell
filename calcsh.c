@@ -28,7 +28,7 @@ int main() {
     printf("type --help for usage\n\n");
 
     while (1) {
-        printf("calc> ");
+        printf("CalcSh:");
 
         if (!fgets(line, sizeof(line), stdin)) {
             break;
