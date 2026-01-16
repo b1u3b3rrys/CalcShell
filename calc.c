@@ -4,17 +4,17 @@
 void show_help() {
     printf("calculator shell help\n");
     printf("=====================\n");
-    printf("Usage:\n");
+    printf("usage:\n");
     printf("  number operator number\n\n");
-    printf("Operators:\n");
+    printf("operators:\n");
     printf("  +   addition\n");
     printf("  -   subtraction\n");
     printf("  *   multiplication\n");
     printf("  /   division\n\n");
-    printf("Commands:\n");
+    printf("commands:\n");
     printf("  --help, help   show this help message\n");
     printf("  exit, quit     exit the calculator\n\n");
-    printf("Examples:\n");
+    printf("examples:\n");
     printf("  3 + 4\n");
     printf("  10 / 2\n");
 }
@@ -24,8 +24,8 @@ int main() {
     double a, b, result;
     char op;
 
-    printf("Simple Calculator Shell\n");
-    printf("Type --help for usage\n\n");
+    printf("simple calculator shell\n");
+    printf("type --help for usage\n\n");
 
     while (1) {
         printf("calc> ");
